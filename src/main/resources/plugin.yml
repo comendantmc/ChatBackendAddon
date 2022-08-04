@@ -1,0 +1,8 @@
+name: ChatBackendAddon
+version: '${project.version}'
+main: ru.org.twobtwot.chatbackendaddon.ChatBackendAddon
+prefix: ChatBackendAddon
+depend: [ PistonChat ]
+authors: [ comendantmc ]
+description: Allows to preprocess PistonChat messages on an external backend
+website: 2b2t.org.ru

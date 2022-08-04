@@ -1,0 +1,7 @@
+enable: true
+allow-on-error: true
+timeout: 1000
+retries: 1
+enable-metrics: false
+servers: # load balanced with round-robin
+  - http://localhost:25501

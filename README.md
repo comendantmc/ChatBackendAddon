@@ -1,5 +1,7 @@
 # ChatBackendAddon
 
+[![build status](https://github.com/comendantmc/ChatBackendAddon/actions/workflows/maven.yml/badge.svg?event=push)](https://github.com/comendantmc/ChatBackendAddon/actions/workflows/maven.yml)
+
 This plugin allows you to preprocess [PistonChat](https://github.com/AlexProgrammerDE/PistonChat) messages on an external backend server.
 
 ## Config

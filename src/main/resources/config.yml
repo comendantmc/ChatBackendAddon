@@ -2,6 +2,6 @@ enable: true
 allow-on-error: true
 timeout: 1000
 retries: 1
-enable-metrics: false
+enable-metrics: true
 servers: # load balanced with round-robin
   - http://localhost:25501

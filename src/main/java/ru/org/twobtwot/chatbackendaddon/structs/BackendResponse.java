@@ -1,4 +1,4 @@
-package ru.org.twobtwot.chatbackendaddon.Structs;
+package ru.org.twobtwot.chatbackendaddon.structs;
 
 public class BackendResponse {
     public boolean allowed;

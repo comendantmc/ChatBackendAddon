@@ -1,11 +1,11 @@
-package ru.org.twobtwot.chatbackendaddon.Utils;
+package ru.org.twobtwot.chatbackendaddon.utils;
 
 import java.util.Iterator;
 import java.util.List;
 
 //https://stackoverflow.com/a/2041772
 public class RoundRobin<T> implements Iterable<T> {
-    private List<T> coll;
+    private final List<T> coll;
 
     public RoundRobin(List<T> coll) { this.coll = coll; }
 

@@ -6,3 +6,11 @@ depend: [ PistonChat ]
 authors: [ comendantmc ]
 description: Allows to preprocess PistonChat messages on an external backend
 website: 2b2t.org.ru
+commands:
+  chatbackendaddon:
+    description: Main command for ChatBackendAddon
+    permission: chatbackendaddon.admin
+permissions:
+  chatbackendaddon.admin:
+    description: Admin permission for ChatBackendAddon
+    default: op
